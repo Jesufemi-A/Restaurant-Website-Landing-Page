@@ -1,17 +1,16 @@
-
-
-
 .first-main {
- 
-  background-image: url("back.jpg");
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../back.jpg");
   background-size: cover;
- background-color: grey;
+  background-color: grey;
   width: 100%;
   background-position: center;
-  padding: 4rem 2rem ;
-
+  padding: 4rem 2rem;
 }
-
 
 .headline {
   font-size: 3rem;
@@ -19,6 +18,7 @@
   max-width: 30rem;
   margin-bottom: 2rem;
   line-height: 4rem;
+  color: white;
 }
 .headline span {
   color: var(--orange);
@@ -30,45 +30,42 @@
   max-width: 50%;
   font-size: 1.2rem;
   margin-bottom: 4rem;
-
 }
-
 
 .order-now {
   background-color: var(--orange);
   padding: 1rem 1.8rem;
   color: white;
   margin-right: 1.5rem;
+  cursor: pointer;
 }
 
 .browse-menu {
   border: 1px solid white;
-  padding: .9rem 1.78rem;
-  color: white;
+  padding: 0.9rem 1.78rem;
+  color: white !important;
+  cursor: pointer;
 }
 
-.order-now, .browse-menu {
-  border-radius: .6rem;
+.order-now,
+.browse-menu {
+  border-radius: 0.6rem;
 }
 
 headline-bottom {
-  margin-bottom: 3rem; ;
+  margin-bottom: 3rem;
 }
 
 .s--2 {
-
-font-size: 2.5rem;
-color: var(--grey);
-text-align: center;
+  font-size: 2.5rem;
+  color: var(--grey);
+  text-align: center;
 }
 
 .resize-img-con {
   max-width: 10rem;
   margin-inline: auto;
- 
-  
 }
 .resize-img {
   width: 100%;
 }
-

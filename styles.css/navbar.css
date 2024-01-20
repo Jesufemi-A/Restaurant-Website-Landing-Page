@@ -1,6 +1,7 @@
 :root {
   --orange: rgb(240, 89, 2);
   --grey: rgb(46, 44, 44);
+  --line: rgb(216, 213, 213);
 }
 
 * {
@@ -15,7 +16,7 @@ html {
 
 body {
   font-family: inter, Arial, Helvetica, sans-serif;
-
+ 
 }
 
 .header {
@@ -24,6 +25,7 @@ body {
 
 header {
   padding: 2rem;
+  padding-bottom: 0;
 }
 .nav {
   display: flex;
