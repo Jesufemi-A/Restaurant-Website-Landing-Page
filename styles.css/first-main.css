@@ -1,0 +1,56 @@
+
+
+
+.first-main {
+ 
+  background-image: url("back.jpg");
+  background-size: cover;
+ background-color: grey;
+  width: 100%;
+  background-position: center;
+  padding: 4rem 2rem ;
+
+}
+
+
+.headline {
+  font-size: 3rem;
+  font-weight: 500;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+  line-height: 4rem;
+}
+.headline span {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+.headline-info {
+  color: white;
+  max-width: 50%;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+
+}
+
+
+.order-now {
+  background-color: var(--orange);
+  padding: 1rem 1.8rem;
+  color: white;
+  margin-right: 1.5rem;
+}
+
+.browse-menu {
+  border: 1px solid white;
+  padding: .9rem 1.78rem;
+  color: white;
+}
+
+.order-now, .browse-menu {
+  border-radius: .6rem;
+}
+
+headline-bottom {
+  margin-bottom: 3rem; ;
+}
