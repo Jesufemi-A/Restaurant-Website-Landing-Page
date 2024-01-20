@@ -1,0 +1,63 @@
+:root {
+  --orange: rgb(240, 89, 2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: inter, Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+  background-color: white;
+}
+
+header {
+  padding: 2rem;
+}
+.nav {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 6px;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+ 
+ 
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.logo {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.mar {
+  margin: 0.8rem;
+}
+
+.log-signup {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.sign-up {
+  background-color: rgb(26, 26, 26);
+  color: white;
+
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.6rem;
+}
+
