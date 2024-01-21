@@ -1,19 +1,30 @@
 .browse-menu {
+  border: 1px solid white;
+  padding: 0.9rem 1.78rem;
+  /* color: white !important; */
+  cursor: pointer;
+  margin-bottom: 5rem;
   color: var(--grey);
-  margin-bottom: 2rem;
+  background-color: var(--opac-orange);
+
 }
 
+.browse-menu header {
+  margin-bottom: 2rem;
+  
+}
 .browse-menu-info {
   max-width: 50rem;
   margin-inline: auto;
   font-size: 1.5rem;
   margin-bottom: 5rem;
+
 }
 
 .food-con {
   max-width: 35rem;
   height: 25rem;
-  object-fit: contain;
+  object-fit: cover;
   border-top-right-radius: 0.7rem;
   border-top-left-radius: 0.7rem;
   border: none;
@@ -32,7 +43,7 @@
 }
 
 .food-heading span {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .meal-card {
@@ -72,7 +83,6 @@
 }
 
 .meal-cards {
-
   display: flex;
   justify-content: center;
   gap: 3rem;
@@ -87,16 +97,22 @@
   font-size: 1.5rem;
   width: fit-content;
   padding: 1rem 1.8rem;
-  border-radius: .7rem;
+  border-radius: 0.7rem;
   margin-inline: auto;
   font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .view-menu:hover {
   opacity: 0.8;
 }
 
-.best-ingredient-con{
+.best-ingredient {
+  margin-bottom: 15rem;
+}
+
+.best-ingredient-con {
   display: flex;
   margin-top: 7rem;
   /* justify-content: center; */
@@ -104,83 +120,76 @@
   align-items: center;
   max-width: 100%;
   /* margin-inline: auto; */
-  
-
 }
 
 .bur-coca-con {
-max-width: 45rem;
-margin: 2rem;
-
+  max-width: 45rem;
+  margin: 2rem;
 }
 
 .bur-coca-con img {
- width: 100%;
-  }
+  width: 100%;
+}
 
-  .ingredient-header {
-    padding-inline: 0;
-    margin-bottom: 2rem;
-    color:var(--grey);
-  }
-  .ingredients-heading {
-    font-size: 3rem;
-   
-  }
+.ingredient-header {
+  padding-inline: 0;
+  margin-bottom: 2rem;
+  color: var(--grey);
+}
+.ingredients-heading {
+  font-size: 3rem;
+}
 
- 
-  .bur-section {
-    max-width: 45rem;
-  
-  }
+.bur-section {
+  max-width: 45rem;
+}
 
-  .bur-text {
-    font-size: 1.6rem;
-    color: var(--grey);
-    margin-bottom: 2rem;
-    line-height: 2.5rem;
+.bur-text {
+  font-size: 1.6rem;
+  color: var(--grey);
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+}
 
-  }
+.dish-header {
+  padding-inline: 0;
+}
 
-  .dish-header {
-    padding-inline: 0;
-  }
+.ingredient-list {
+  list-style: none;
+  font-size: 1.4rem;
+  color: var(--grey);
+}
 
-  .ingredient-list {
-    list-style: none;
-    font-size: 1.4rem;
-    color: var(--grey);
-  }
+.ingredient-list li {
+  margin-bottom: 1rem;
+}
 
-  .ingredient-list li {
-    margin-bottom: 1rem;
-  }
+.check-mark {
+  background-color: var(--orange);
+  color: white;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  padding-inline: 0.2rem;
+}
 
-  .check-mark {
-    background-color: var(--orange);
-    color: white;
-    width: .4rem;
-    height: .4rem;
-    border-radius: 50%;
-    margin-right: 1rem;
-    padding-inline: .2rem;
-  }
+.learn-more {
+  background-color: var(--orange);
+  transition: all 0.3s;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
 
-  .learn-more {
-    background-color: var(--orange);
-    transition: all .3s;
-    color:white;
-    font-size: 1.4rem;
-    padding: .8rem 1.6rem; 
-    border-radius: .4rem;
-    font-weight: 500;
-    cursor: pointer;
-  }
-
-  .learn-more:hover {
-    opacity: .8;
-  }
+.learn-more:hover {
+  opacity: 0.8;
+}
 
 .learn-con {
-    margin-top: 5rem;
-  }
+  margin-top: 5rem;
+}

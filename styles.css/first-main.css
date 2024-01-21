@@ -40,12 +40,7 @@
   cursor: pointer;
 }
 
-.browse-menu {
-  border: 1px solid white;
-  padding: 0.9rem 1.78rem;
-  color: white !important;
-  cursor: pointer;
-}
+
 
 .order-now,
 .browse-menu {
