@@ -1,6 +1,7 @@
 .services {
-  background-color: rgb(233, 247, 246);
-  margin-bottom: 2rem;
+  background-color: rgba(241, 241, 241, 0.5);
+
+  padding-top: 10rem;
 }
 .services-head {
   color: var(--orange);
@@ -8,6 +9,9 @@
   margin-bottom: 1rem;
   font-size: 1.7rem;
   font-weight: 500;
+}
+.services header {
+  margin-bottom: 4rem;
 }
 
 .services-card {
@@ -34,4 +38,5 @@
 
   gap: 2rem;
   justify-content: center;
+  padding-bottom: 8rem;
 }

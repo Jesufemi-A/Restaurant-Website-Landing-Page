@@ -1,0 +1,53 @@
+footer {
+  background: linear-gradient(90deg, rgb(49, 49, 49), rgb(66, 63, 63));
+}
+
+
+
+.footer-section {
+  display: flex;
+ /* height: 25rem; */
+ color: white;
+ /* padding: 2rem 2rem 4rem 2rem; */
+ padding-top: 4rem;
+ padding-bottom: 6rem;
+ font-size: 1.3rem;
+ justify-content: space-evenly;
+ gap: 3rem;
+}
+
+.logo-foodie{
+  color: var(--orange);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+ 
+}
+
+.svg-con {
+  width: 2rem;
+}
+
+.svg {
+  width: 100%;
+  stroke: white;
+}
+
+.foodie-left {
+  max-width: 30rem;
+}
+
+ul {
+  list-style: none;
+}
+.footer-heading {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.footer-foodie {
+  line-height: 1.8rem;
+}
+
+.li-bottom {
+  margin-bottom: 1.3rem;
+}

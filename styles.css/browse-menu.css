@@ -1,24 +1,21 @@
 .browse-menu {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 0.9rem 1.78rem;
   /* color: white !important; */
   cursor: pointer;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   color: var(--grey);
   background-color: var(--opac-orange);
-
 }
 
 .browse-menu header {
   margin-bottom: 2rem;
-  
 }
 .browse-menu-info {
   max-width: 50rem;
   margin-inline: auto;
   font-size: 1.5rem;
   margin-bottom: 5rem;
-
 }
 
 .food-con {
